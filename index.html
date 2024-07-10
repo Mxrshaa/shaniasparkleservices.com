@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  type="text/css" rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo1.png">
+    <script src="https://kit.fontawesome.com/ea495119e4.js" crossorigin="anonymous"></script>
+    <title>Shania Sparkle Services</title>
+</head>
+<body>
+    <div class="wrapper" id="homepage">
+        <header>
+            <nav>
+                <div class="logo">
+                    <a href="#homepage"><img src="finalssslogo.png"></a>
+                </div>
+                <div class="navkeys">
+                    <ul>
+                        <li><a href="#servicespage">SERVICES</a></li>
+                        <li><a href="#aboutuspage" >ABOUT US</a></li>
+                        <li><a href="#contactpage">CONTACT US</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <div class="home">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="hmpg">
+            <h2>SHANIA SPARKLE CLEANING AND INTERIOR DESIGN SERVICES</h2>
+            <br><br><br>
+            <h3 id="servicespage">15PX</h3>
+        </div>
+    </div>
+    <br>
+    <div class="services">
+        <h1>SERVICES AND PRICING:</h1>
+        <table border="1">
+            <tr>
+                <th>CATEGORY</th>
+                <th>SERVICES</th>
+                <th>CHARGES</th>
+            </tr>
+            <tr>
+                <td style="font-weight: bold;">STANDARD CLEANING PACKAGE</td>
+                <td>Basic cleaning services including dusting, mopping and surface wiping</td>
+                <td>KSH 2500</td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold;">DEEP CLEANING PACKAGE</td>
+                <td>Comprehensive cleaning services covering detailed cleaning of all surfaces for new homes</td>
+                <td>KSH 10,000</td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold;" rowspan="2">SPECIALISED SERVICES</td>
+                <td>Carpet Cleaning</td>
+                <td>KSH 200 per square foot</td>
+            </tr>
+            <tr>
+                <td>Window Cleaning</td>
+                <td>Starting from KSH 300 per window</td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold;" rowspan="3">RECURRING CLEANING PLAN</td>
+                <td>Weekly</td>
+                <td>10% discount on total bill</td>
+            </tr>
+            <tr>
+                <td>Bi-weekly</td>
+                <td>5% discount on total bill</td>
+            </tr>
+            <tr>
+                <td>Monthly</td>
+                <td>5% discount on total bill</td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold;" rowspan="3">ADDITIONAL SERVICES</td>
+                <td>Laundry</td>
+                <td>KSH 1000 per load</td>
+            </tr>
+            <tr>
+                <td>Inside Oven/Refrigerator Cleaning</td>
+                <td>KSH 1500</td>
+            </tr>
+            <tr>
+                <td>Patio/Balcony Cleaning</td>
+                <td>KSH 800</td>
+            </tr>
+        </table>
+    </div>
+    <h1 id="aboutuspage">ABOUTID</h1>
+    <br><br><br><br>
+    <div class="aboutus" >
+        <h1>ABOUT US:</h1>
+        <div class="imgcntn">
+            <img src="cleaningsupplies.jpg">
+        </div>
+        <h2>Why Choose Shania Sparkle Services?</h2>
+        <h3>
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+        </h3>
+        <h4>CUSTOMIZED CLEANING SOLUTIONS</h4>
+        <p>
+            We understand that every space has unique cleaning needs. That's why we offer personalized cleaning plans tailored to your specific requirements, ensuring that your home or office receives the care it deserves.
+        </p>
+        <h3>
+            <i class="fa fa-leaf"></i>
+        </h3>
+        <h4>ECO-FRIENDLY APPROACH</h4>
+        <p>
+            We prioritize the use of environmentally friendly cleaning products and techniques, ensuring a safer and healthier environment for you, your family, and our planet.
+        </p>
+        <h3>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </h3>
+        <h4>ATTENTION TO DETAIL</h4>
+        <p>
+            Our cleaning experts leave no stone unturned. From deep cleaning to routine maintenance, we meticulously clean every nook and cranny, ensuring a spotless and refreshing space.
+        </p>
+        <h3>
+            <i class="fa fa-check-circle"></i>
+        </h3>
+        <h4>TRUSTWORTHY AND RELIABLE</h4>
+        <p>
+            We value your trust and strive to build long-lasting relationships with our clients. Our team undergoes thorough background checks, and we are fully insured and bonded for your peace of mind.
+        </p>
+        <h3>
+            <i class="fa fa-infinity"></i>
+        </h3>
+        <h4>FLEXIBLE SCHEDULING</h4>
+        <p>
+            We understand that your time is valuable. That's why we offer flexible scheduling options to accommodate your busy lifestyle, ensuring that your cleaning needs are met without disrupting your daily routine.
+        </p>
+    </div>
+    <br>
+    <h1 id="contactpage">contact</h1>
+    <div class="contactus">
+        <div class="cntct">
+            <br><br><br><br><br><br>
+            <h1>WOULD YOU LIKE TO GET IN TOUCH?</h1>
+            <h2>_____________________</h2>
+        </div>
+        <h3>Reach us through:</h3>
+        <h4><i class="fa-solid fa-phone"></i></h4>
+        <p>0795762875</p>
+        <h4><i class="fa-solid fa-at"></i></h4>
+        <p>shaniaspacks@gmail.com</p>
+        <p>----</p>
+        <p>SHANIA SPARKLE SERVICES</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script>
+        $(window).scroll(function(){
+            if($(window).scrollTop()){
+               $("nav").addClass("black");
+            }
+            else{
+                $("nav").removeClass("black");
+            }
+        });
+    </script>
+</body>
+</html>

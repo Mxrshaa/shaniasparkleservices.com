@@ -1,0 +1,365 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 110px;
+    background-color: aliceblue;
+    background-attachment: fixed;
+}
+
+.logo img{
+    height: 150px;
+    margin-top: -20px;
+    margin-left: -25px;
+}
+
+.logo{
+    position: fixed;
+    float: left;
+}
+
+.logo img:hover{
+    opacity: 0.5;
+}
+
+nav{
+    height: 110px;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul{
+    height: 110px;
+    list-style: none;
+    background: rgba(252, 197, 114, 0);
+    overflow: hidden;
+    color: cyan;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav.black {
+    background: rgb(255, 255, 255);
+}
+
+
+nav ul li{
+    display:inline-block;
+    padding: 20px;
+    margin: 25px auto;
+}
+
+.navkeys{
+    float: right;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: cyan;
+    font-size: 18px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+
+nav ul li a:hover{
+    color: #809fff;
+}
+
+.home{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    height: 83vh;
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('cs.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hmpg{
+    height: 51.5vh;
+}
+
+.hmpg h2{
+    color: #809fff;
+    margin: 10px auto;
+    width: 500px;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family:'Segoe';
+}
+
+#servicespage{
+    color: white;
+    height: 15vh;
+    margin-bottom: 15px;
+    visibility: hidden;
+}
+
+.services{
+    height: 115vh;
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('gloves-4017614.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.services h1{
+    color: #809fff;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+.services table{
+    width: 66%;
+    margin: 10px auto;
+    color: #809fff;
+    border: 1px rgba(255, 255, 255, 0.212) solid;
+    border-collapse: collapse;
+
+}
+
+.services th{
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+}
+.services td{
+    padding: 7px;
+}
+
+#aboutuspage{
+    color: white;
+    visibility: hidden;
+}
+
+.aboutus{
+    height: 175vh;
+    margin-top: 11vh;
+    width: 60%;
+    margin: 10px auto;
+}
+
+.aboutus h1{
+    text-align: center;
+    color: #809fff;
+}
+
+.imgcntn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgcntn img{
+    max-width: 50%;
+    margin: 10px auto;
+}
+
+.aboutus h2{
+    color: cyan;
+    text-align: center;
+}
+
+.aboutus h3{
+    font-size: xx-large;
+    color: #809fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.aboutus h4{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.541);
+    font-size: larger;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.aboutus p{
+    color: rgba(0, 0, 0, 0.616);
+    text-align: center;
+    font-size: large;
+}
+
+#contactpage{
+    visibility: hidden;
+}
+
+.contactus{
+    height: 83vh;
+}
+
+.cntct{
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('vcmcln.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    height: 48vh;
+}
+
+.cntct h1{
+    text-align: center;
+    color: #809fff;
+}
+.cntct h2{
+    text-align: center;
+    color: #809fff;
+}
+
+.contactus h3{
+    text-align: center;
+    margin-top: 10px;
+    font-size: x-large;
+    color: rgba(0, 0, 0, 0.699);
+}
+
+.contactus h4{
+    color: rgba(0, 0, 0, 0.87);
+    text-align: center;
+    font-size: larger;
+    padding: 5px;
+}
+
+.contactus p{
+    font-size: larger;
+    color: rgba(0, 0, 0, 0.733);
+    text-align: center;
+    padding: 2px;
+}
+
+/*MOBILE*/
+@media only screen and (max-width:600px){
+    header{
+        height: 90px;
+    }
+
+    .logo img{
+        height: 120px;
+        margin-top: -15px;
+        margin-left: -17px;
+    }
+
+    nav{
+        height: 90px;
+    }
+
+    nav ul{
+        height: 90px;
+    }
+
+    nav ul li{
+        padding: 10px;
+        margin: 25px auto;
+    }
+
+    nav ul li a{
+        font-size: 11px;
+    }
+
+    .home{
+        height: 91vh;
+    }
+
+    .hmpg{
+        height: 76vh;
+        margin-top: 10vh;
+    }
+
+    .hmpg h2{
+        width: 100%;
+    }
+
+    #servicespage{
+        margin-top: 40px;
+        visibility: hidden;
+    }
+
+    .services{
+        height: 85vh;
+        background: none;
+    }
+
+    .services table{
+        width: 100%;
+        margin: 10px auto;
+        background: 
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url('gloves-4017614.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .services td{
+        font-size: smaller;
+    }
+
+    #aboutuspage{
+        visibility: hidden;
+        color: black;
+    }
+
+    .aboutus{
+        height: 145vh;
+        width: 98%;
+        margin: 10px auto;
+    }
+
+    .imgcntn img{
+        max-width: 70%;
+        margin: 10px auto;
+    }
+
+    .aboutus h3{
+        font-size: x-large;
+        padding: 5px;
+    }
+
+    .aboutus h4{
+        font-size: medium;
+        font-weight: 800;
+        padding: 2px;
+    }
+    
+    .aboutus p{
+        color: rgba(0, 0, 0, 0.616);
+        text-align: center;
+        font-size: medium;
+    }
+
+    #contactpage{
+        visibility: hidden;
+    }
+
+    .contactus{
+        height: 75vh;
+    }
+
+    .contactus h3{
+        font-size: large;
+    }
+    
+    .contactus h4{
+        font-size: large;
+        padding: 3px;
+    }
+    
+    .contactus p{
+        font-size: large;
+        padding: 2px;
+    }
+}
